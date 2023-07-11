@@ -1,4 +1,4 @@
-# SCRIPT XRAY PINK
+# SCRIPT BY YOGZ VPN
 </p> 
 
 <h2 align="center"> Supported Linux Distribution</h2>
