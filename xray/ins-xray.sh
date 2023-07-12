@@ -546,7 +546,7 @@ sed -i '$ i}' /etc/nginx/conf.d/xray.conf
 
 sleep 1
 echo -e "[ ${green}INFO$NC ] Installing bbr.."
-#wget -q -O /usr/bin/bbr "https://raw.githubusercontent.com/FranataVPN/src/ipuk/ssh/bbr.sh"
+#wget -q -O /usr/bin/bbr "https://raw.githubusercontent.com/YSSHstore/PELIKU/ipuk/ssh/bbr.sh"
 #chmod +x /usr/bin/bbr
 #bbr >/dev/null 2>&1
 #rm /usr/bin/bbr >/dev/null 2>&1
@@ -561,13 +561,13 @@ systemctl enable runn
 systemctl restart runn
 
 sleep 1
-wget -q -O /usr/bin/add-ws "https://raw.githubusercontent.com/FranataVPN/src/ipuk/xray/add-ws.sh" && chmod +x /usr/bin/add-ws
-wget -q -O /usr/bin/add-vless "https://raw.githubusercontent.com/FranataVPN/src/ipuk/xray/add-vless.sh" && chmod +x /usr/bin/add-vless
-wget -q -O /usr/bin/add-tr "https://raw.githubusercontent.com/FranataVPN/src/ipuk/xray/add-tr.sh" && chmod +x /usr/bin/add-tr
-wget -q -O /usr/bin/del-user "https://raw.githubusercontent.com/FranataVPN/src/ipuk/xray/del-ws.sh" && chmod +x /usr/bin/del-user
-wget -q -O /usr/bin/renew-ws "https://raw.githubusercontent.com/FranataVPN/src/ipuk/xray/renew-ws.sh" && chmod +x /usr/bin/renew-ws
-wget -q -O /usr/bin/crtv2ray "https://raw.githubusercontent.com/FranataVPN/src/ipuk/xray/crt.sh" && chmod +x /usr/bin/crtv2ray
-wget -q -O /usr/bin/add-ssws "https://raw.githubusercontent.com/FranataVPN/src/ipuk/xray/add-ssws.sh" && chmod +x /usr/bin/add-ssws
+wget -q -O /usr/bin/add-ws "https://raw.githubusercontent.com/YSSHstore/PELIKU/ipuk/xray/add-ws.sh" && chmod +x /usr/bin/add-ws
+wget -q -O /usr/bin/add-vless "https://raw.githubusercontent.com/YSSHstore/PELIKU/ipuk/xray/add-vless.sh" && chmod +x /usr/bin/add-vless
+wget -q -O /usr/bin/add-tr "https://raw.githubusercontent.com/YSSHstore/PELIKU/ipuk/xray/add-tr.sh" && chmod +x /usr/bin/add-tr
+wget -q -O /usr/bin/del-user "https://raw.githubusercontent.com/YSSHstore/PELIKU/ipuk/xray/del-ws.sh" && chmod +x /usr/bin/del-user
+wget -q -O /usr/bin/renew-ws "https://raw.githubusercontent.com/YSSHstore/PELIKU/ipuk/xray/renew-ws.sh" && chmod +x /usr/bin/renew-ws
+wget -q -O /usr/bin/crtv2ray "https://raw.githubusercontent.com/YSSHstore/PELIKU/ipuk/xray/crt.sh" && chmod +x /usr/bin/crtv2ray
+wget -q -O /usr/bin/add-ssws "https://raw.githubusercontent.com/YSSHstore/PELIKU/ipuk/xray/add-ssws.sh" && chmod +x /usr/bin/add-ssws
 sleep 1
 yellow() { echo -e "\\033[33;1m${*}\\033[0m"; }
 yellow "xray/Vmess"
