@@ -10,10 +10,10 @@ pip3 install pillow
 
 #isi data
 echo ""
-read -e -p "[*] Input your Bot Token : " bottoken
-read -e -p "[*] Input Your Id Telegram :" admin
-read -e -p "[*] Input Your Domain :" domain
-echo -e BOT_TOKEN='"'$bottoken'"' >> /root/xolpanel/var.txt
+read -e -p "[*] 6383900821:AAGrdOhs_cJ9ILZUUofrrfHyQLK2r0yMkcU : " bottoken
+read -e -p "[*] 5795571992 :" admin
+read -e -p "[*] $domain :" domain
+echo -e 6383900821:AAGrdOhs_cJ9ILZUUofrrfHyQLK2r0yMkcU='"'$bottoken'"' >> /root/xolpanel/var.txt
 echo -e ADMIN='"'$admin'"' >> /root/xolpanel/var.txt
 echo -e DOMAIN='"'$domain'"' >> /root/xolpanel/var.txt
 clear
