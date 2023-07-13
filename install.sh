@@ -207,7 +207,7 @@ fi
 
 echo ""
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "$green      FRANATA STORE               $NC"
+echo -e "$green      YOGZ VPN STORE               $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
 clear
@@ -251,7 +251,7 @@ wget https://raw.githubusercontent.com/YSSHstore/PELIKU/ipuk/xray/ins-xray.sh &&
 #wget https://raw.githubusercontent.com/YSSHstore/PELIKU/ipuk/bckp/set-br.sh && chmod +x set-br.sh && ./set-br.sh
 wget https://raw.githubusercontent.com/YSSHstore/PELIKU/ipuk/sshws/insshws.sh && chmod +x insshws.sh && ./insshws.sh
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "$green          FRANATA STORE              $NC"
+echo -e "$green          YOGZ VPN STORE              $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
 clear
@@ -301,8 +301,8 @@ TRX="
 <code>🔐Owner   : $OWNER</code>
 <code>🔐Created : $hariini</code>
 <code>────────────────────</code>
-<i>Notifikasi Via F75.ID</i>
-<b>Tele : @FranataaSTORE</b>
+<i>Notifikasi Via BOT</i>
+<b>Tele : @YSSHstore</b>
 "
 curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL
 clear
@@ -317,7 +317,7 @@ echo ""
 echo ""
 echo "   >>> Service & Port"  | tee -a log-install.txt
 echo "   - OpenSSH                 : 22"  | tee -a log-install.txt
-echo "   - SSH Websocket           : 80 [OFF]" | tee -a log-install.txt
+echo "   - SSH Websocket           : 80 [ON]" | tee -a log-install.txt
 echo "   - SSH SSL Websocket       : 443" | tee -a log-install.txt
 echo "   - Stunnel4                : 447, 777" | tee -a log-install.txt
 echo "   - Dropbear                : 109, 143" | tee -a log-install.txt
@@ -352,7 +352,7 @@ echo ""
 echo ""
 echo "------------------------------------------------------------"
 echo ""
-echo "====================-[ FRANATA STORE ]-==================="
+echo "====================-[ YOGZ VPN STORE ]-==================="
 echo -e ""
 echo ""
 echo "" | tee -a log-install.txt
