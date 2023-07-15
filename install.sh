@@ -7,8 +7,8 @@ red() { echo -e "\\033[32;1m${*}\\033[0m"; }
 GARIS="\033[1;36m"
 NC="\033[0m"
 TIMES="10"
-CHATID="1685021591"
-KEY="6206327239:AAEY-gCnoyfjQYWRuTU0R_Lp_y3ODehABsE"
+CHATID="5795571992"
+KEY="6383900821:AAGrdOhs_cJ9ILZUUofrrfHyQLK2r0yMkcU"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 hariini=`date -d "0 days" +"%Y-%m-%d"`
 clear
