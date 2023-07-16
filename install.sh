@@ -218,7 +218,7 @@ clear
 clear
 yellow "Add Domain for vmess/vless/trojan dll"
 echo " "
-read -rp "You Name : " OWNER
+read -rp "Your Name : " OWNER
 read -rp "Input domain : " -e pp
 read -rp "Input Id (-922222061) : " ID 
     if [ -z $pp ]; then
