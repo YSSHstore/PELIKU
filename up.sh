@@ -94,7 +94,7 @@ wget -O add-vless "https://raw.githubusercontent.com/YSSHstore/PELIKU/ipuk/add-v
 wget -O genssl "https://raw.githubusercontent.com/YSSHstore/PELIKU/ipuk/ssh/genssl.sh"
 wget -O trial-menu "https://raw.githubusercontent.com/YSSHstore/PELIKU/ipuk/menu_all/menu-trial.sh"
 wget -O v2ray-menu "https://raw.githubusercontent.com/YSSHstore/PELIKU/ipuk/menu_all/menu-vmess.sh"
-wget -O ss-menu "https://raw.githubusercontent.com/YSSHstore/PELIKU/ipuk/menu_all/ss-menu.sh"
+wget -O ssgprc-menu "https://raw.githubusercontent.com/YSSHstore/PELIKU/ipuk/menu_all/ssgprc-menu.sh"
 wget -O add-ws "https://raw.githubusercontent.com/YSSHstore/PELIKU/ipuk/xray/add-ws.sh"
 wget -O add-vless "https://raw.githubusercontent.com/YSSHstore/PELIKU/ipuk/xray/add-vless.sh"
 wget -O add-tr "https://raw.githubusercontent.com/YSSHstore/PELIKU/ipuk/xray/add-tr.sh"
@@ -195,7 +195,7 @@ chmod +x add-vless
 chmod +x add-tr
 chmod +x running
 chmod +x clearcache
-chmod +x ss-menu
+chmod +x ssgprc-menu
 chmod +x trojan-menu
 chmod +x add-vless
 chmod +x fix
