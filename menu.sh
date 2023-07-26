@@ -112,7 +112,7 @@ echo -e "${PURPLE} ✘ ${NC}Clients Name        = $Name"
 echo -e "${PURPLE} ✘ ${NC}Script Expert       = $Exp"
 echo -e "${PURPLE} ✘ ${NC}VPS Reboot          = Jam 12 Malam ${NC}"
 echo -e "${PURPLE} ✘ ${NC}Versi Script        = Xray${NC}"
-echo -e "${PURPLE} ✘ ${NC}Developer           = FRANATA STORE${NC}"
+echo -e "${PURPLE} ✘ ${NC}Developer           = YOGZ STORE${NC}"
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 echo -e "\E[45;1;39m                     ⇱ STATUS SERVER ⇲                        \E[0m"
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
@@ -148,10 +148,11 @@ echo -e " [${PURPLE}12${NC}]${NC} Change Banner $NC"
 echo -e " [${PURPLE}13${NC}]${NC} Cek Bandwith User Xray $NC"
 echo -e " [${PURPLE}14${NC}]${NC} Change Password VPS $NC"
 echo -e " [${PURPLE}15${NC}]${NC} CEK LOGIN XRAY $NC"
-echo -e " [${PURPLE}16${NC}]${NC} REBOOT VPS $NC"
+echo -e " [${PURPLE}16${NC}]${NC} UPDATE SCRIPT $NC"
+echo -e " [${PURPLE}17${NC}]${NC} REBOOT VPS$NC"
 echo -e " ${RED}"
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
-echo -e "\E[45;1;39m                      ⇱ FRANATA STORE ⇲                       \E[0m"
+echo -e "\E[45;1;39m                      ⇱ YOGZ VPN STORE ⇲                      \E[0m"
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 echo -e ""
 read -p "Select From Options [ 1 - 14 ] : " menu
@@ -214,9 +215,13 @@ passwd
 ;;
 15)
 clear
-cekxrayb
+cekxray
 ;;
 16)
+clear
+up
+;;
+17)
 reboot
 exit
 ;;
