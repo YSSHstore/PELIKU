@@ -348,7 +348,6 @@ chmod +x cekxray
 chmod +x up
 cd
 
-
 cat > /etc/cron.d/re_otm <<-END
 SHELL=/bin/sh
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
