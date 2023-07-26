@@ -318,6 +318,7 @@ wget -O info-menu "https://raw.githubusercontent.com/YSSHstore/PELIKU/ipuk/menu_
 wget -O ceklim "https://raw.githubusercontent.com/YSSHstore/PELIKU/ipuk/ssh/ceklim.sh"
 wget -O cekusage "https://raw.githubusercontent.com/YSSHstore/PELIKU/ipuk/xray/cekusage.sh"
 wget -O cekxray "https://raw.githubusercontent.com/YSSHstore/PELIKU/ipuk/cekxray.sh"
+wget -O add-ip "https://raw.githubusercontent.com/YSSHstore/PELIKU/ipuk/add-ip.sh"
 chmod +x usernew
 chmod +x menu
 chmod +x hapus
@@ -344,6 +345,7 @@ chmod +x info-menu
 chmod +x ceklim
 chmod +x cekusage
 chmod +x cekxray
+chmod +x add-ip
 cd
 
 
